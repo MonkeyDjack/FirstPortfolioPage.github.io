@@ -1,0 +1,245 @@
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="vendor/jquery-plugin-circliful-master/css/jquery.circliful.css">
+	<link rel="stylesheet" href="vendor/Remodal-1.1.1/dist/remodal.css">
+	<link rel="stylesheet" href="vendor/Remodal-1.1.1/dist/remodal-default-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="banner">
+		<div class="banner-triangle"></div>
+		<div class="container clearfix">
+			<header class="clearfix">
+				<div class="menu-btn not-active" id="menu-btn"><span></span></div>
+				<div class="logo"><a href="#"><img src="img/logo.gif" alt="" height="100" width="100">
+				</a></div>
+				<nav class="menu">
+					<ul id="menu">
+						<li><a href="#about-me">About me</a></li>
+						<li><a href="#skills">My skills</a></li>
+						<li><a href="#portfolio">My Portfolio</a></li>
+						<li><a href="#contact">Contact me</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="banner-info">
+				<div class="avatar-block">
+					<img src="img/avatar.jpg" alt="me">
+					<div class="top-line"></div>
+					<div class="bottom-line"></div>
+				</div>
+				<h2 class="name">Yahya Muhitdin</h2>
+				<span class="profesion">Frontend Developer</span>
+			</div>
+		</div>
+	</div>
+	<div class="about_me" id="about-me">
+		<div class="container">
+			<div class="ab-me-flex">
+				<div class="facts-ab_me">
+					<h3><span class="red">01.</span>Passion</h3>
+					<p>If the frontend were women i would marry on her</p>
+				</div>
+				<div class="facts-ab_me">
+					<div class="ab-me_boxarrow red-ab-me right-arrow">
+						<p>200+</p>
+						<p>hours of pure (love) work</p>
+					</div>
+				</div>
+				<div class="facts-ab_me">
+					<div class="ab-me_boxarrow left-arrow">
+						<p>30+</p>
+						<p>completed pages</p>
+					</div>
+				</div>
+				<div class="facts-ab_me right-f_ab_me">
+					<h3><span class="green">02.</span>Experience</h3>
+					<p>I always try to do my best</p>
+				</div>
+				<div class="facts-ab_me">
+					<h3><span class="purple">03.</span>Knowledge</h3>
+					<p>HTML5/CSS3, JS/JQ, Bootstrap and a lot of another plugins</p>
+				</div>
+				<div class="facts-ab_me">
+					<div class="ab-me_boxarrow purple-ab-me right-arrow">
+						<p>3</p>
+						<p>Certifications</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="skill-indicators">
+		<div class="skill-triangle"></div>
+		<div class="row content">
+			<div class="circle-container" id="skills">
+				<div class="circlestat svg-container" data-dimension="200" data-foregroundborderwidth="5" data-backgroundborderwidth="5" data-fontsize="38" data-percent="90" data-foregroundcolor="#fdc426" data-backgroundcolor="#fff" data-fill="#fdc426"></div>
+				<h3>HTML5/CSS3</h3>
+			</div>
+
+			<div class="circle-container">
+				<div class="circlestat" data-percent="99"></div>
+				<h3>ADAPTIVE</h3>
+			</div>
+
+			<div class="circle-container">
+				<div class="circlestat" data-percent="87"></div>
+				<h3>Plugins</h3>
+			</div>
+
+
+		</div>
+		<div class="portfolio-triangle"></div>
+	</div>
+
+	<div class="portfolio-block" id="portfolio-block" >
+		<div class="container">
+			<h3 id="portfolio">My work</h3>
+			<div class="portf-blocker">
+				<div class="p_block ">
+					<img src="upload/freedom1.jpg" alt="">
+					<div class="cover-p_block">
+						<h5>Freedom</h5>
+						<a href="#Freedom">View</a>
+						
+					</div>
+				</div>
+				<div class="p_block">
+					<img src="upload/kurulush.jpg" alt="">
+					<div class="cover-p_block">
+						<h5>Kurulush</h5>
+						<a href="#kurulush">View</a>
+						
+					</div>
+				</div>
+				<div class="p_block">
+					<img src="upload/web.jpg" alt="">
+					<div class="cover-p_block">
+						<h5>Web</h5>
+						<a href="#web">View</a>
+						
+					</div>
+				</div>
+				<div class="p_block">
+					<img src="upload/news-reporter1.jpg" alt="">
+					<div class="cover-p_block">
+						<h5>News-Reporter</h5>
+						<a href="#news-reporter">View</a>
+						
+					</div>
+				</div>
+				<div class="p_block">
+					<img src="upload/craze.jpg" alt="">
+					<div class="cover-p_block">
+
+						<h5>Craze</h5>
+						<a href="#craze">View</a>          
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--     Модальные окна к портфолио -->
+	<!--   Freedom -->
+	<div class="remodal" data-remodal-id="Freedom">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<img src="upload/freedom.jpg" alt="">
+		<h1>Freedom</h1>
+		<p>Это лэндинговая страница с используемоей bootstrap каруселью</p>
+		<a href="#">Перейти к странице</a>
+	</div>
+
+	<!-- Kurulush -->
+	<div class="remodal" data-remodal-id="kurulush">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<img src="upload/kurulush.jpg" alt="">
+		<h1>Kurulush</h1>
+		<p>Это лэндинговая страница сверстанная с использованием особенности стилей border и абсолютного позиционирования</p>
+		<a href="#">Перейти к странице</a>
+	</div>
+
+	<!-- Web -->
+	<div class="remodal" data-remodal-id="web">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<img src="upload/web.jpg" alt="">
+		<h1>Web</h1>
+		<p>Это лэндинговая страница cверстанная специально для мобильных устройств и адаптированная под Пк и ноутбуки</p>
+		<a href="#">Перейти к странице</a>
+	</div>
+
+	<!-- news-reporter -->
+	<div class="remodal" data-remodal-id="news-reporter">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<img src="upload/news-reporter.jpg" alt="">
+		<h1>The News Reporter</h1>
+		<p>Это главная страница для новостного портала сверстанная с посомощью блочного позиционирования</p>
+		<a href="#">Перейти к странице</a>
+	</div>
+
+	<!-- craze -->
+	<div class="remodal" data-remodal-id="craze">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<img src="upload/craze.jpg" alt="">
+		<h1>Craze</h1>
+		<p>Отличная новая тема psd для демонстрации вашего нового приложения</p>
+		<a href="#">Перейти к странице</a>
+	</div>
+
+
+	<!-- Конец Модальных окон к портфолио -->
+
+	<div class="contact-block">
+		<div class="container">
+			<div class="flex-block">
+				<div class="adress-block" id="contact">
+					<div class="avatar-block">
+						<img src="img/avatar.jpg" alt="me">
+						<div class="top-line"></div>
+						<div class="bottom-line"></div>
+					</div>
+					<div class="name-block">
+						<h2 class="name">Yahya Muhitdin</h2>
+						<span class="profesion">Frontend Developer</span>
+					</div>
+					<div class="connect_with_me">
+						<p class="adress">Vostok-5, Bishkek, Kyrgyzstan</p>
+						<p class="number">+996557778008</p>
+						<p class="mail">muhitdin0@gmail.com</p>
+						<div class="links">
+							<a href="http://muhitdin0@gmail.com" target="_blank" class="google"></a>
+							<a href="#" class="facebook"></a>
+							<a href="#" class="twitter"></a>
+						</div>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<form action="">
+						<div class="form-row"><input placeholder="Full Name" type="text"></div>
+						<div class="form-row"><input placeholder="Email" type="email"></div>
+						<div class="form-row"><input placeholder="Number" type="text"></div>
+						<div class="form-row"><textarea placeholder="Write your message"></textarea></div>
+						<div class="form-row"><button>Submit</button></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="toTop"></div>
+
+
+	<script src="vendor/jq/jquery-3.2.0.min.js"></script>
+	<script src="vendor/jquery-plugin-circliful-master/js/jquery.circliful.min.js"></script>
+	<script src="vendor/Remodal-1.1.1/dist/remodal.min.js"></script>
+	<script src="vendor/jQuery-viewport-checker-master/dist/jquery.viewportchecker.min.js"></script>
+	<script src="js/core.js"></script>
+</body>
+</html>
